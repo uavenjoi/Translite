@@ -52,6 +52,7 @@ namespace Translite
             {
                 if (char.IsLetter(tx))
                 {
+                    //---
                     var letter = _dictionary[Char.ToLower(tx)];
                     builder.Append(letter);
                 }
